@@ -1,8 +1,9 @@
 var btnprimary = document.querySelector("#btn-primary");
 var txtarea = document.querySelector("#txt-area");
+var outputdiv = document.querySelector("#output");
+
 function clickhander(){
 
-    console.log("clicked");
-  console.log("input", txtarea.value);
+    outputdiv.innerHTML = "sskss " + txtarea.value;
 };
 btnprimary.addEventListener("click", clickhander);
