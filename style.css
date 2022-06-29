@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+:root{
+--primary-color :#93c5fd;
+--secondary-color:#fde047;
+--textarea-color:#fde68a;
+}
+body{
+   background-color: var(--primary-color);
+}
+.textarea {
+    width: 50%;
+    border: 1px solid black;
+    /* 
+    display: block;
+    */
+    height: 30vh;
+    margin: 1rem; 
+    background-color: var(--textarea-color);
+}
+.container{
+    text-align: center;
+    padding: 1rem;
+}
+
+.button {
+    margin: 1rem 1rem;
+}
+.navigation{
+background-color: var(--secondary-color);
+height: 2rem;
+padding: 1rem;
+}
+.nav-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+.output {
+    background-color: var(--textarea-color);
+    border: 1px solid black;
+    text-align:right;
+    width: 50%;
+    height: 20vh;
+    
+    
+}
