@@ -25,7 +25,8 @@ body{
 }
 
 .button {
-    margin: 1rem 1rem;
+    width: 10px;
+    height: 10px;
 }
 .navigation{
 background-color: var(--secondary-color);
@@ -38,12 +39,15 @@ padding: 1rem;
     font-size: large;
 
 }
-.output {
+.container-ot {
     background-color: var(--textarea-color);
     border: 1px solid black;
     text-align:right;
     width: 50%;
     height: 20vh;
-    
-    
+    margin: 0% 25%;
+}
+.img{
+   height: 14%;
+   width: 20%;
 }
