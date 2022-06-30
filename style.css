@@ -10,7 +10,7 @@ body{
    background-color: var(--primary-color);
 }
 .textarea {
-    width: 50%;
+    width: 40%;
     border: 1px solid black;
     /* 
     display: block;
@@ -30,24 +30,28 @@ body{
 }
 .navigation{
 background-color: var(--secondary-color);
-height: 2rem;
+height: 3rem;
 padding: 1rem;
 }
 .nav-title{
     text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size: 40px;
+ 
 
 }
 .container-ot {
     background-color: var(--textarea-color);
     border: 1px solid black;
-    text-align:right;
-    width: 50%;
-    height: 20vh;
-    margin: 0% 25%;
+    text-align:center;
+    width: 40%;
+    min-height: 20vh;
+    height: auto;
+    margin: 0% 30%;
+    margin-bottom: 2rem;
 }
 .img{
-   height: 14%;
+   height: 20%;
    width: 20%;
+   padding: 1rem;
 }
